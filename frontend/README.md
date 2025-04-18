@@ -1,12 +1,27 @@
-# React + Vite
+Google Login with MERN Stack
+A simple, secure, and modern Google OAuth 2.0 login system built with the MERN (MongoDB, Express, React, Node.js) stack.
+It handles user authentication via Google, manages user records in MongoDB, and generates JWT tokens for secured sessions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 Demo
+Login with Google → User details fetched → JWT issued → User stored in DB
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+✅ Google OAuth 2.0 integration
 
-## Expanding the ESLint configuration
+✅ Fetch user profile (Name, Email, Profile Picture)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ JWT token generation
+
+✅ MongoDB database for user management
+
+✅ React frontend with Google Sign-In button
+
+✅ Express API backend
+
+🚀 Tech Stack
+Frontend: React.js, Axios, @react-oauth/google
+
+Backend: Node.js, Express.js, Google APIs, Mongoose, JWT
+
+Database: MongoDB
